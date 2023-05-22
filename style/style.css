@@ -269,3 +269,135 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+
+
+/***********************************************************************/
+/*                         about_us                                    */
+
+#about_us{
+  position: relative;
+    width: 99.9%;
+  height: -200px;
+
+
+}
+
+
+#abtid1{ 
+  text-align: center;
+  width: 200px;
+  color: white;
+  position: relative; 
+  top: -120px ;
+  font-size: 32px; 
+  border: 2px solid white;
+  background-color:  #AA96DA;
+  border-radius: 15px;
+
+
+}
+
+
+#abtid2{ 
+  position: relative;
+  text-align: center;
+  top: -70px ; 
+  left: 6px;
+  height: 100px;
+  color:  white;
+  font-size: 30px; 
+  
+}
+
+#abtid3{ 
+  position: relative;
+  text-align: center;
+  top: -50px ; 
+  left: 2px;
+  height: 100px;
+  color:white;
+  font-size: 28px; 
+  
+  
+}
+
+
+#abtid4{ 
+  text-align: center;
+  top: 100px ; 
+  left: -500px;
+  width: 200px;
+  color: white;
+  position: relative; 
+  font-size: 30px; 
+  border: 2px solid white;
+  background-color:  #AA96DA;
+  border-radius: 15px;
+  box-shadow: 2px 5px WHITE;
+
+
+
+}
+
+
+#abtid5{ 
+  text-align: center;
+    top: 65px ; 
+  left: -180px;
+  width: 200px;
+  color: white;
+  position: relative; 
+  font-size: 30px; 
+  border: 2px solid white;
+  background-color:  #AA96DA;
+  border-radius: 15px;
+  box-shadow: 2px 5px WHITE;
+
+
+
+}
+
+
+
+#abtid6{ 
+  text-align: center;
+  left: 200px;
+  top: 30px ; 
+
+  width: 200px;
+  color: white;
+  position: relative; 
+  font-size: 30px; 
+  border: 2px solid white;
+  background-color:  #AA96DA;
+  border-radius: 15px;
+  box-shadow: 2px 5px WHITE;
+
+
+
+}
+
+
+
+#abtid7{ 
+  text-align: center;
+  left: 500px;
+    top: -5px ; 
+
+  width: 200px;
+  color: white;
+  position: relative; 
+  font-size: 30px; 
+  border: 2px solid white;
+  background-color:  #AA96DA;
+  border-radius: 15px;
+  box-shadow: 2px 5px WHITE;
+
+
+}
+
+
+
+
+/***********************************************************************/
