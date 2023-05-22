@@ -1,5 +1,6 @@
 
 @media only screen and (max-width: 900px) {
+    
     .nav_tabs{
         display: none;
     }
@@ -7,5 +8,28 @@
         display: block !important;
         font-size: 2.3rem;
     }
+    #home .text {
+        width: 400px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .center-img {
+        top: 0;
+        width: 400px;
+      }
+    
+}
+@media only screen and (max-width: 400px) {
+    .center-img {
+        width: 350px;
+      }
+      .services_card {
+        width: 350px;
+      }
     
 }
