@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 900px) {
+    .nav_tabs{
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+        font-size: 2.3rem;
+    }
+    
+}
