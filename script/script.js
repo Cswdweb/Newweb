@@ -1,3 +1,5 @@
+AOS.init();
+
 const navBar = document.querySelector("nav");
 const resMenu = document.querySelector(".nav_tabs2")
 
