@@ -13,6 +13,7 @@
     ></script>
   </head>
   <body>
+    <div class="alert">Your message sent</div>
     <nav>
       <!-- <h1>CSWD</h1> -->
       <img src="assets/logo.png" />
@@ -20,7 +21,6 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about_us">About</a></li>
         <li><a href="#services">Service</a></li>
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact_us">Contact Us</a></li>
       </ul>
@@ -38,8 +38,8 @@
       <div class="text">
         <h1>Computer Society of Web Developers</h1>
         <p>
-          Building the Future of the Web: Together, We <span>Code</span>, We <span>Create</span>, We
-          <span>Inspire</span>.
+          Building the Future of the Web: Together, We <span>Code</span>, We
+          <span>Create</span>, We <span>Inspire</span>.
         </p>
       </div>
       <div class="img-container">
@@ -156,13 +156,95 @@
           </div>
         </div>
       </section>
-      <section id="projects"><h1>Projects</h1></section>
-      <section id="team"><h1>Team</h1></section>
-      <section id="contact_us"><h1>Contact us</h1></section>
+      <section id="team">
+        <div class="title">
+          <h1>Our Team</h1>
+        <h3>Meet Our Team Members</h3>
+        </div>
+        <div class="team_container">
+          <div class="team_card">
+            <img src="assets/profile.jpeg">
+            <h1>Name</h1>
+            <p>Position</p>
+            <div class="social_link_box">
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="team_card">
+            <img src="assets/profile.jpeg">
+            <h1>Name</h1>
+            <p>Position</p>
+            <div class="social_link_box">
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="team_card">
+            <img src="assets/profile.jpeg">
+            <h1>Name</h1>
+            <p>Position</p>
+            <div class="social_link_box">
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="team_card">
+            <img src="assets/profile.jpeg">
+            <h1>Name</h1>
+            <p>Position</p>
+            <div class="social_link_box">
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="team_card">
+            <img src="assets/profile.jpeg">
+            <h1>Name</h1>
+            <p>Position</p>
+            <div class="social_link_box">
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section id="contact_us">
+        <div class="login-box">
+          <h2>Contact</h2>
+          <form id="form">
+            <div class="user-box">
+              <input type="text" id="firstName" name="" required="" />
+              <label>First Name</label>
+            </div>
+            <div class="user-box">
+              <input type="text" id="lastName" name="" required="" />
+              <label>Last Name</label>
+            </div>
+            <div class="user-box">
+              <input type="text" id="emailid" name="" required="" />
+              <label>Email</label>
+            </div>
+            <div class="user-box">
+              <input type="text" id="msgContent" name="" required="" />
+              <label>Message</label>
+            </div>
+            <a href="#" id="contactForm">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Submit
+            </a>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
       <h1>Footer</h1>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="script/script.js"></script>
   </body>
 </html>
