@@ -47,4 +47,8 @@
   #about_us img {
     width: 350px;
   }
+  .contact_container .img_container img {
+    width: 350px;
+    height: 350px;
+  }
 }
