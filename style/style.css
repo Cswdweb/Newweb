@@ -24,7 +24,7 @@ body {
 }
 
 section {
-  min-height: 90vh;
+  /* min-height: 90vh; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -601,6 +601,11 @@ nav i {
   color: white;
 }
 /* Contact end */
+
+
+#map{
+  height: 400px;
+}
 
 footer {
   min-height: 20vh;
