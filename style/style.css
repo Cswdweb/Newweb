@@ -11,20 +11,8 @@
 html {
   color-scheme: dark;
 }
-body {
-  /* background: linear-gradient(45deg, #000133, #151b4c); */
-  /* background-image: linear-gradient(
-    to left bottom,
-    #026c6d,
-    #005972,
-    #004374,
-    #002a6a,
-    #26044f
-  ); */
-}
 
 section {
-  /* min-height: 90vh; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -81,7 +69,6 @@ nav i {
   gap: 2rem;
   width: 100%;
   padding: 10px 0;
-  /* transform: translateY(-200px); */
   transform: translateY(-255px);
   transition: 500ms ease-in-out;
   border-radius: 0 0 50% 50%;
@@ -417,7 +404,6 @@ nav i {
 
 /* Contact start */
 
-
 .contact_container {
   display: flex;
   flex-wrap: wrap;
@@ -742,4 +728,42 @@ footer #wave4 {
   bottom: 20px;
   animation-delay: -5s;
   animation: animate2 15s linear infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: light;
+  }
+  .nav_tabs li a,
+  .nav_tabs2 li a {
+    color: #000;
+  }
+  #home .text p span {
+    color: #2eb3bf;
+    font-weight: 500;
+  }
+  .links a {
+    border: 1px solid #000;
+    color: #000;
+  }
+  .links a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .services_card .content p {
+    color: #000;
+  }
+  .team_card .social_link_box a {
+    color: #000;
+  }
+  .login-box h2 {
+    color: #000;
+  }
+  .login-box .user-box input {
+    color: #000;
+    border-bottom: 1px solid #000;
+  }
+  .login-box .user-box label {
+    color: #000;
+  }
 }
