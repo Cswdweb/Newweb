@@ -67,14 +67,15 @@ nav i {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  width: 100%;
+  width: 70%;
   padding: 10px 0;
-  transform: translateY(-255px);
+  transform: translate(400px, 233px);
   transition: 500ms ease-in-out;
-  border-radius: 0 0 50% 50%;
+  border-radius: 50px 0 0 50px;
+  background: #111;
 }
 .show {
-  transform: translateY(254px);
+  transform: translate(30px, 233px);
 }
 
 #home {
@@ -737,6 +738,9 @@ footer #wave4 {
   .nav_tabs li a,
   .nav_tabs2 li a {
     color: #000;
+  }
+  .nav_tabs2 {
+    background: #fff;
   }
   #home .text p span {
     color: #2eb3bf;

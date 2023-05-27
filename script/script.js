@@ -19,8 +19,6 @@ window.addEventListener("scroll", () => {
 toggleBtn.addEventListener("click",()=>{
     toggleBtn.classList.toggle("fa-xmark");
     resMenu.classList.toggle("show");
-    resMenu.style.background="rgba(255, 255, 255, 0.26)";
-    resMenu.style.backdropFilter="blur(5px)";
 })
 
 
