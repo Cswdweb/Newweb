@@ -377,9 +377,6 @@ nav i {
   -webkit-backdrop-filter: blur(5px);
   transition: 200ms ease-in-out;
 }
-.team_card:hover {
-  transform: scale(1.02);
-}
 .team_card img {
   height: 350px;
   width: 350px;

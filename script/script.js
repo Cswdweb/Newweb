@@ -5,6 +5,13 @@ const resMenu = document.querySelector(".nav_tabs2")
 
 const toggleBtn= document.querySelector("nav i");
 
+const navBarLink = document.querySelectorAll(".nav_tabs2 li");
+for (let i = 0; i < navBarLink.length; i++) {
+  navBarLink[i].addEventListener("click",()=>{
+    resMenu.classList.remove("show");
+    toggleBtn.classList.remove("fa-xmark");
+  })
+}
 
 window.addEventListener("scroll", () => {
   if (window.scrollY >= 80) {
